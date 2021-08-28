@@ -68,7 +68,42 @@ section img{
     object-fit: cover;
 }
 
+iframe{
+    position: absolute;
+}
 
+.map{
+    display: flex;
+    align-items: center;
+}
+
+.map .textInfo{
+    float: right;
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 600px;
+}
+#text{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 3vw;
+    z-index: 9;
+    -webkit-text-stroke: 2px black;
+}
+
+.cAmarillo{
+    color: yellow;
+    -webkit-text-stroke: 2px black;
+}
+.cAzul{
+    color: blue;
+    -webkit-text-stroke: 2px black;
+}
+.cRojo{
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
 
 
 
