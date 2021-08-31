@@ -46,9 +46,12 @@ header ul li a{
     border-radius: 20px;
 }
 
-header ul li a:hover ,
-header ul li .activate{
+header ul li .activate, header ul li a:hover{
     background: #fff;
+    color: #2b1055; 
+}
+header ul li .activate:hover{
+    background: rgb(221, 217, 217);
     color: #2b1055;
 }
 
@@ -68,8 +71,59 @@ section img{
     object-fit: cover;
 }
 
+.textHeader{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 2.2vw;
+    z-index: 9;
+    margin-left: 650px;
+    margin-top: 100px;
+    -webkit-text-stroke: 1px black;
+}
 
 
+.textHeader .txtAm{
+    color: yellow;
+    -webkit-text-stroke: 1px black;
+}
+
+.textHeader .txtAz{
+    color: blue;
+    -webkit-text-stroke: 1px black;
+}
+
+.textHeader .txtRo{
+    color: red;
+    -webkit-text-stroke: 1px black;
+}
+
+.ptext{
+    position: absolute;
+    color: white;
+    white-space: nowrap;
+    font-size: 20px;
+    z-index: 9;
+    margin-left: 650px;
+    margin-top: 150px;
+    font-weight: lighter; 
+}
+
+section .buttonA{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 250px;
+    background: #fff;
+    font-weight: 800;
+    color: #1c073d;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+section .buttonA:hover{
+    background: rgb(221, 217, 217);
+}
 
 
 
