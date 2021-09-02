@@ -1,6 +1,7 @@
 .containerMap{
-    position: fixed;
     width: 50%;
+    background: content-box;
+    position: relative;
 }
 
 #CO-LAG, #CO-MAG, #CO-CES, #CO-ATL, #CO-BOL, #CO-SAP, #CO-SUC, #CO-COR, #CO-CHO, #CO-ANT, #CO-NSA, #CO-SAN{
@@ -33,21 +34,7 @@
     fill: #641E16;
 }
 
-.content{
-    position: absolute;
-    background: #fff;
-    padding: 20px;
-    width: 400px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s; 
-}
 
-.CO-AMA:hover .content{
-    position: absolute;
-    visibility: visible;
-}
+
 
 
