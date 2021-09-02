@@ -24,13 +24,13 @@
     fill: #154360;
 }
 
-#CO-GUA, #CO-VAU, .CO-AMA, #CO-GUV, #CO-CAQ, #CO-PUT{
+#CO-GUA, #CO-VAU, #CO-AMA, #CO-GUV, #CO-CAQ, #CO-PUT{
     fill: #C0392B;
     stroke: #D0D3D4;
     stroke-width: 2px;
 }
 
-#CO-GUA:hover, #CO-VAU:hover, .CO-AMA:hover, #CO-GUV:hover, #CO-CAQ:hover, #CO-PUT:hover{
+#CO-GUA:hover, #CO-VAU:hover, #CO-AMA:hover, #CO-GUV:hover, #CO-CAQ:hover, #CO-PUT:hover{
     fill: #641E16;
 }
 
